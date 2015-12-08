@@ -1,0 +1,26 @@
+{
+  "name": "donahoe-server",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha -u tdd"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "4.x",
+    "jsonwebtoken": "^5.0.5",
+    "mongoose": "^4.1.8",
+    "morgan": "^1.6.1"
+  }
+}
